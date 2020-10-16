@@ -8,7 +8,7 @@
 
 
 # Characters and traits
-
+# The dictionary for characters
 characters = {
     'Evelyn': {
         'adjective': 'ambitious',
@@ -21,6 +21,7 @@ characters = {
         'health_points': '100'
         }
   }
+# Printing out the character descriptions
 for character, description in characters.items():
     Adjective = description['adjective']
     Skills = description['skills']
@@ -34,8 +35,8 @@ for character, description in characters.items():
 
 # Inventory and characteristics
 # Evelyn's Inventory
-
 print("Evelyn's Inventory:")
+# The dictionary for Evelyn's inventory
 evelyn_inventory = {
     'dagger': {
         'description': 'An old but sharp dagger',
@@ -53,6 +54,7 @@ evelyn_inventory = {
         'healing': '0'
         }
   }
+# Printing out the inventory
 for item, stats in evelyn_inventory.items():
     Description = stats['description']
     Damage = stats['damage']
@@ -65,8 +67,8 @@ for item, stats in evelyn_inventory.items():
     print("\n")
 
 # Avery's Inventory
-
 print("Avery's Inventory:")
+# The dictionary for Avery's inventory
 avery_inventory = {
     'glowstick': {
         'description': 'Releases posion when it breaks through skin',
@@ -84,6 +86,7 @@ avery_inventory = {
         'healing': '100'
         }
     }
+# Printing out the inventory
 for item, stats in avery_inventory.items():
     Description = stats['description']
     Damage = stats['damage']
@@ -96,13 +99,14 @@ for item, stats in avery_inventory.items():
     print("\n")
 
 # Locations and Descriptions
-
+# The dictionary for locations
 locations = {
             "Sewer": "underneath the city",
             "Shopping Centre": "in the middle of the city",
             "Scrap Yard": "in the east of the city",
             "Oxygen Station": {"South of the city", "North of the city"}
             }
+# Printing out location statements
 for location in locations:
     place = locations[location]
     if location == "Oxygen Station":
