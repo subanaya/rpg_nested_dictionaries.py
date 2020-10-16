@@ -1,7 +1,7 @@
 # Course: CS 30
 # Period: 1
 # Date Created: 20/10/14
-# Date Last Modified: 20/10/14
+# Date Last Modified: 20/10/16
 # Name: Subanaya Thirunavukkarasu
 # Description: Add properties to your characters, locations and
 # inventory to your text-based adventure game using nested dictionaries
